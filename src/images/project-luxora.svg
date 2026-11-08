@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550">
+  <defs>
+    <linearGradient id="bg-luxora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711"/>
+      <stop offset="50%" stop-color="#121e3d"/>
+      <stop offset="100%" stop-color="#1f3768"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d061"/>
+      <stop offset="50%" stop-color="#e5b83b"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <radialGradient id="lux-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ea1ff" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#2563eb" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur-soft">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#bg-luxora)"/>
+
+  <!-- Glowing pedestal background -->
+  <circle cx="480" cy="275" r="210" fill="url(#lux-glow)"/>
+
+  <!-- Luxury Chronograph / Showcase Object -->
+  <g transform="translate(480, 270)">
+    <!-- Concentric Orbit Rings -->
+    <ellipse cx="0" cy="0" rx="170" ry="85" fill="none" stroke="#2a457a" stroke-width="1.5" stroke-dasharray="3 6"/>
+    <ellipse cx="0" cy="0" rx="140" ry="70" fill="none" stroke="#4ea1ff" stroke-width="1.2" opacity="0.6"/>
+    <ellipse cx="0" cy="0" rx="90" ry="45" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+
+    <!-- High-end Watch / Product Dial Graphic -->
+    <circle cx="0" cy="-15" r="80" fill="#091326" stroke="#335691" stroke-width="3"/>
+    <circle cx="0" cy="-15" r="74" fill="#040914" stroke="#1d345c" stroke-width="1"/>
+    
+    <!-- Dial Markers -->
+    <g stroke="url(#gold)" stroke-width="2">
+      <line x1="0" y1="-85" x2="0" y2="-77" />
+      <line x1="0" y1="55" x2="0" y2="47" />
+      <line x1="-70" y1="-15" x2="-62" y2="-15" />
+      <line x1="70" y1="-15" x2="62" y2="-15" />
+    </g>
+    <!-- Hands -->
+    <line x1="0" y1="-15" x2="28" y2="-52" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="-15" x2="-35" y2="-22" stroke="#4ea1ff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="-15" r="5" fill="url(#gold)"/>
+
+    <!-- Reflection highlights -->
+    <path d="M -50 -55 Q 0 -85 50 -55" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <!-- Luxury E-Commerce UI Elements -->
+  <g transform="translate(56, 56)">
+    <rect x="0" y="0" width="136" height="24" rx="12" fill="#0b172a" stroke="#223a63" stroke-width="1"/>
+    <circle cx="12" cy="12" r="4" fill="#f5d061"/>
+    <text x="24" y="16" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="10" font-weight="600" letter-spacing="1">HAUTE COUTURE</text>
+
+    <text x="0" y="70" fill="#ffffff" font-family="'Barlow Condensed', sans-serif" font-size="34" font-weight="600" letter-spacing="1.5">LUXORA TIMEPIECES</text>
+    <text x="0" y="94" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="12">CHRONO AUTOMATIQUE · Edition Limitée</text>
+    
+    <!-- Price Card -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="180" height="74" rx="12" fill="#0a1426" stroke="#1d345c" stroke-width="1"/>
+      <text x="18" y="28" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="11">STARTING AT</text>
+      <text x="18" y="54" fill="#f5d061" font-family="'Barlow Condensed', sans-serif" font-size="26" font-weight="600">CHF 14,800</text>
+    </g>
+
+    <!-- Interactive Badges -->
+    <g transform="translate(0, 235)">
+      <rect x="0" y="0" width="108" height="28" rx="6" fill="#142647"/>
+      <text x="14" y="18" fill="#4ea1ff" font-family="'Manrope', sans-serif" font-size="11" font-weight="500">Sapphire Crystal</text>
+      
+      <rect x="116" y="0" width="76" height="28" rx="6" fill="#142647"/>
+      <text x="128" y="18" fill="#4ea1ff" font-family="'Manrope', sans-serif" font-size="11" font-weight="500">100m WR</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" width="800" height="550">
+  <defs>
+    <linearGradient id="bg-lumen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050d1a"/>
+      <stop offset="60%" stop-color="#0b1b38"/>
+      <stop offset="100%" stop-color="#163e6e"/>
+    </linearGradient>
+    <linearGradient id="chart-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#4ea1ff"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="550" fill="url(#bg-lumen)"/>
+
+  <!-- Chart Grid Lines -->
+  <g stroke="#1a2d4f" stroke-width="1" stroke-dasharray="3 6">
+    <line x1="70" y1="180" x2="730" y2="180"/>
+    <line x1="70" y1="260" x2="730" y2="260"/>
+    <line x1="70" y1="340" x2="730" y2="340"/>
+    <line x1="70" y1="420" x2="730" y2="420"/>
+  </g>
+
+  <!-- Glowing Area Chart -->
+  <path d="M 80,410 Q 180,380 250,330 T 420,290 T 560,190 T 720,130 L 720,440 L 80,440 Z" fill="url(#chart-glow)"/>
+  
+  <!-- Smooth Vibrant Wave Line -->
+  <path d="M 80,410 Q 180,380 250,330 T 420,290 T 560,190 T 720,130" fill="none" stroke="url(#line-grad)" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Data Pulsing Nodes -->
+  <circle cx="250" cy="330" r="5" fill="#38bdf8"/>
+  <circle cx="420" cy="290" r="6" fill="#4ea1ff"/>
+  <circle cx="560" cy="190" r="7" fill="#60a5fa"/>
+  <circle cx="720" cy="130" r="8" fill="#ffffff" stroke="#38bdf8" stroke-width="3"/>
+
+  <!-- Tooltip above peak node -->
+  <g transform="translate(630, 72)">
+    <rect width="115" height="42" rx="8" fill="#08142b" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="12" y="18" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="9" font-weight="600">PEAK VOLUME</text>
+    <text x="12" y="34" fill="#38bdf8" font-family="'Barlow Condensed', sans-serif" font-size="17" font-weight="600">$1,428,950</text>
+  </g>
+
+  <!-- Header & KPI Cards -->
+  <g transform="translate(56, 52)">
+    <rect x="0" y="0" width="130" height="24" rx="12" fill="#0b172a" stroke="#223a63" stroke-width="1"/>
+    <circle cx="12" cy="12" r="4" fill="#38bdf8"/>
+    <text x="24" y="16" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="10" font-weight="600" letter-spacing="1">FINTECH PLATFORM</text>
+
+    <text x="0" y="66" fill="#ffffff" font-family="'Barlow Condensed', sans-serif" font-size="32" font-weight="600" letter-spacing="1.5">LUMEN FINANCE</text>
+    <text x="0" y="88" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="12">Next-Gen Wealth Analytics &amp; Visualizations</text>
+
+    <!-- Metric Card -->
+    <g transform="translate(380, -8)">
+      <rect width="170" height="66" rx="10" fill="#09162e" stroke="#1d3763" stroke-width="1"/>
+      <text x="16" y="24" fill="#8896b4" font-family="'Manrope', sans-serif" font-size="11">TOTAL REVENUE (YTD)</text>
+      <text x="16" y="50" fill="#38bdf8" font-family="'Barlow Condensed', sans-serif" font-size="24" font-weight="600">+42.6%</text>
+      <path d="M 120 44 L 132 32 L 140 38 L 152 26" fill="none" stroke="#22c55e" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
