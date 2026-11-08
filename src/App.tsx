@@ -447,14 +447,6 @@ export function App() {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 LinkedIn <span>linkedin.com/in/auravisuals</span>
               </a>
-              <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', borderBottom: '1px solid var(--line)', padding: '16px 0', fontSize: '14px' }}>
-                <span style={{ color: 'var(--tx)' }}>Studio Address</span>
-                <span style={{ color: 'var(--mu)', textAlign: 'right' }}>Connaught Place, New Delhi 110001, India</span>
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-between', gap: '16px', borderBottom: '1px solid var(--line)', padding: '16px 0', fontSize: '14px' }}>
-                <span style={{ color: 'var(--tx)' }}>Availability</span>
-                <span style={{ color: 'var(--mu)', textAlign: 'right' }}>Worldwide Remote · Mon–Fri 9AM–7PM IST</span>
-              </div>
             </div>
           </div>
         </section>
@@ -462,8 +454,8 @@ export function App() {
 
       <footer>
         <div className="w">
-          <span>AURAVISUALS Studio · New Delhi, India · Available Worldwide</span>
-          <span>hello@auravisuals.dev · Privacy policy · Terms of use</span>
+          <span>AURAVISUALS © 2026. All rights reserved.</span>
+          <span>Privacy policy · Terms of use</span>
         </div>
       </footer>
     </div>
