@@ -430,19 +430,19 @@ export function App() {
               <p style={{ color: 'var(--mu)', margin: '22px 0 28px', maxWidth: 360 }}>
                 Have a project in mind? Send an invite on Upwork or reach out directly. I reply within 24 hours.
               </p>
-              <Magnetic href="mailto:hello@auravisuals.dev" className="btn">
+              <Magnetic href="mailto:auravisuals42@gmail.com" className="btn">
                 Get in touch <span>→</span>
               </Magnetic>
             </div>
             <div className="cl">
-              <a href="mailto:hello@auravisuals.dev">
-                Email <span>hello@auravisuals.dev</span>
+              <a href="mailto:auravisuals42@gmail.com">
+                Email <span>auravisuals42@gmail.com</span>
               </a>
               <a href="https://upwork.com" target="_blank" rel="noopener noreferrer">
                 Upwork <span>upwork.com/freelancers/auravisuals</span>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                GitHub <span>github.com/auravisuals</span>
+              <a href="https://github.com/auravisuals42-spec" target="_blank" rel="noopener noreferrer">
+                GitHub <span>github.com/auravisuals42-spec</span>
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 LinkedIn <span>linkedin.com/in/auravisuals</span>

@@ -5,7 +5,7 @@
 
 *Merging computational WebGL artistry, cinematic GSAP motion, and human-centered design to craft unforgettable digital flagships.*
 
-[![Status: Available for Work](https://img.shields.io/badge/Status-Available_Worldwide-4ea1ff?style=flat-square&logo=google-cloud&logoColor=white)](mailto:hello@auravisuals.dev)
+[![Status: Available for Work](https://img.shields.io/badge/Status-Available_Worldwide-4ea1ff?style=flat-square&logo=google-cloud&logoColor=white)](mailto:auravisuals42@gmail.com)
 [![Upwork: 100% Top Rated](https://img.shields.io/badge/Upwork-100%25_Job_Success-14a800?style=flat-square&logo=upwork&logoColor=white)](https://upwork.com)
 [![Location: New Delhi, India](https://img.shields.io/badge/Location-New_Delhi,_India-ff9933?style=flat-square&logo=google-maps&logoColor=white)](#-our-address--contact)
 [![Projects Delivered: 60+](https://img.shields.io/badge/Delivered-60+_Projects-blueviolet?style=flat-square)](#-our-work)
@@ -99,9 +99,9 @@ Coordinates: 28.6139° N, 77.2090° E
 - **Asia-Pacific (SGT/AEST):** Real-time morning and afternoon support
 
 ### Direct Collaboration Channels
-- **Inquiry & Business Email:** [hello@auravisuals.dev](mailto:hello@auravisuals.dev)
+- **Inquiry & Business Email:** [auravisuals42@gmail.com](mailto:auravisuals42@gmail.com)
 - **Upwork Top-Rated Profile:** [upwork.com/freelancers/auravisuals](https://upwork.com)
-- **GitHub Repository & Code:** [github.com/auravisuals](https://github.com/auravisuals)
+- **GitHub Repository & Code:** [github.com/auravisuals42-spec](https://github.com/auravisuals42-spec)
 - **LinkedIn Professional Network:** [linkedin.com/in/auravisuals](https://linkedin.com)
 - **Response Commitment:** All genuine inquiries receive a response within **24 business hours**.
 
@@ -127,7 +127,7 @@ If you are cloning or inspecting this repository locally:
 
 ### 1. Installation
 ```bash
-git clone https://github.com/auravisuals/portfolio.git
+git clone https://github.com/auravisuals42-spec/portfolio.git
 cd portfolio
 npm install
 ```
